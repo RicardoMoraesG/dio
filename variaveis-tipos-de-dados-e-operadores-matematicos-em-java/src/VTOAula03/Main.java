@@ -72,7 +72,7 @@ public class Main {
         int j = 20;
         int k = 30;
 
-        int a = i++ + --i * k; // 10 + 19 * 38 -> 10 + 570 -> 580
+        int a = i++ + --i * k; // 10 + 19 * 38 -> 10 + 570 ->  580
 
         System.out.println("i++ + --i * k: " + a);
         System.out.println("i: " + i); // 11
