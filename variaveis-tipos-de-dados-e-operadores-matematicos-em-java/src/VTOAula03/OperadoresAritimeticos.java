@@ -1,6 +1,6 @@
 package VTOAula03;
 
-public class Main {
+public class OperadoresAritimeticos {
     public static void main(String[] args){
         System.out.println("PrePos");
         prePos();

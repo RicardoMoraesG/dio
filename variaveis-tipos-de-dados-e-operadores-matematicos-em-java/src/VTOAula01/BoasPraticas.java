@@ -1,6 +1,6 @@
 package VTOAula01;
 
-public class Main {
+public class BoasPraticas {
 
 //int i;
 //int i;Não é recomendado como boa prática.

@@ -1,6 +1,6 @@
 package VTOAula02;
 
-public class Main {
+public class TiposDeDados {
     public static void main(String[] args) {
 
 
