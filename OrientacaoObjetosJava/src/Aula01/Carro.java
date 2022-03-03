@@ -2,10 +2,11 @@ package Aula01;
 
 public class Carro {
 
-    String cor;
-    String modelo;
-    int capacidadeTanque;
-    Carro(){
+    private String cor;
+    private String modelo;
+    private int capacidadeTanque;
+
+    Carro() {
 
     }
 
@@ -15,26 +16,30 @@ public class Carro {
         this.capacidadeTanque = capacidadeTanque;
     }
 
-    void setCor(String cor){
+    public void setCor(String cor) {
         this.cor = cor;
-    }
-    String getCor(){
-        return cor;
     }
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-    String getModelo(){
-        return modelo;
-    }
 
     public void setCapacidadeTanque(int capacidadeTanque) {
         this.capacidadeTanque = capacidadeTanque;
     }
-    int getCapacidadeTanque(){
+
+    public String getCor() {
+        return cor;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public int getCapacidadeTanque() {
         return capacidadeTanque;
     }
+
     double totalValorTanque(double valorCombustivel) {
         return capacidadeTanque * valorCombustivel;
     }
