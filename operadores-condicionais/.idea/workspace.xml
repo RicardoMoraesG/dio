@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911a7ce0-117f-4f5f-9dc8-487ccefabc79" name="Changes" comment="" />
+    <list default="true" id="911a7ce0-117f-4f5f-9dc8-487ccefabc79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/lacos-e-arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/loop-e-array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/loops-e-arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/Ex1_OrdemInversa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/Ex2_Consoantes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/Ex3_NumerosAleatorios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/Ex4_ArrayMultidimensional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/comentado/ArrayMultidimensional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/comentado/Consoantes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/comentado/NumerosAleatorios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/comentado/OrdemInversa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/arrays/comentado/anotacao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/Ex1_NomeEIdade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/Ex2_Nota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/Ex3_MaiorEMedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/Ex4_ParEImpar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/Ex5_Tabuada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/Ex6_Fatorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/comentado/Fatorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/comentado/MaiorEMedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/comentado/NomeEIdade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/comentado/Nota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/comentado/ParEImpar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop-e-array/src/br/com/dio/exercicios/loops/comentado/Tabuada.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
