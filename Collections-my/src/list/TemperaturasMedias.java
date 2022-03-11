@@ -2,6 +2,9 @@ package list;
 
 import java.util.*;
 
+/**
+ * Exercício Proposto nº1 na Aula de Listas Ordenadas.
+ */
 
 public class TemperaturasMedias {
 
@@ -15,6 +18,9 @@ public class TemperaturasMedias {
         this.temperatura = temperatura;
     }
 
+    public int getTemperatura() {
+        return temperatura;
+    }
 
     public static void main(String[] args) {
         //Utiliza essa opção de lista para não alterar os MESES.
@@ -63,13 +69,25 @@ public class TemperaturasMedias {
         //Cria a lista que guarda as temperaturas mensais.
         List<TemperaturasMedias> anual = new ArrayList<>();
 
-        //cria a iteração que faz a composição da lista criada acima.
-        Iterator<Mes> ano2021 = MESES.iterator();
-        while (ano2021.hasNext()) {
-            Mes mesAtual = ano2021.next();
+        //a iteração que faz a composição da lista criada acima.
+        int soma = 0;
+        int index = 0;
+        Iterator<Mes> iteratorAno2021 = MESES.iterator();
+        while (iteratorAno2021.hasNext()) {
+            Mes mesAtual = iteratorAno2021.next();
             anual.add(new TemperaturasMedias(mesAtual, temperaturaRegistrada()));
+            soma += anual.get(index).getTemperatura();
+            index += 1;
         }
-        System.out.println("Temperaturas do ano: " + anual);
+        int mediaTemperaturas = soma /= index + 1;
+        Iterator<Mes> AnoCorrente = MESES.iterator();
+        System.out.println("Meses acima da média: ("+ mediaTemperaturas + "ºC)");
+        while ((AnoCorrente.hasNext())) {
+            int mesAtual = AnoCorrente.next().getOrdem() - 1;
+            if ((anual.get(mesAtual).getTemperatura()) > mediaTemperaturas) {
+                System.out.println(anual.get(mesAtual));
+            }
+        }
     }
 
     /**
@@ -86,7 +104,7 @@ public class TemperaturasMedias {
     }
 
     /**
-     * Exibição limpa. Exemplo: 1 - Janeiro: 28Cº.
+     * Exibição limpa. Exemplo: 1 - Janeiro: 28ºC.
      *
      * @return String
      */
@@ -95,7 +113,6 @@ public class TemperaturasMedias {
         return mes +
                 ": " + temperatura + "ºC";
     }
-
 }
 
 /**
