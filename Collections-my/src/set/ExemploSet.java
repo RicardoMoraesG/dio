@@ -11,7 +11,7 @@ public class ExemploSet {
 
         System.out.println("Crie um conjunto e adicione as notas:");
         Set<Double> notas = new HashSet<>(Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6));
-        System.out.println(notas.toString());
+        System.out.println(notas);
 
         //System.out.println("Exiba a posição da nota 5");
         // O metodo Set não mantem a posição portanto não é possivel trabalhar com posição.
