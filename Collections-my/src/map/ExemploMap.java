@@ -37,10 +37,10 @@ public class ExemploMap {
         O método Map.entrySet retorna uma exibição de coleção do mapa,
         cujos elementos são dessa classe.
         A única maneira de obter uma referência a uma entrada de mapa é do iterador dessa exibição de coleção.
-        Esses objetos Map.Entry são válidos apenas pela duração da iteração;
+        Esses objetos Map. Entry são válidos apenas pela duração da iteração;
         mais formalmente, o comportamento de uma entrada de mapa é indefinido se
         o mapa de apoio foi modificado após a entrada ser retornada pelo iterador,
-        exceto por meio da operação setValue na entrada de mapa.
+        exceto por meio da operação setValue.
         * */
         Set<Map.Entry<String, Double>> entradas = carrosPopulares.entrySet();//iterador
         for (Map.Entry<String, Double> entrada : entradas) {
