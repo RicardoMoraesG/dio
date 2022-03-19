@@ -11,9 +11,13 @@ import java.util.stream.Collectors;
 
 public class ExerciciosStreamAPI {
     public static void main(String[] args) {
+        /*
+
         List<String> numerosAleatorios =
                 Arrays.asList("1", "0", "4", "1", "2", "3", "9", "9", "6", "5");
         System.out.println("Imprima todos os elementos dessa lista de String: ");
+
+         */
         /*classe anônima:
         numerosAleatorios.stream().forEach(new Consumer<String>() {
             @Override
@@ -34,7 +38,7 @@ public class ExerciciosStreamAPI {
                 .collect(Collectors.toSet())
                 .forEach(System.out::println);
         */
-        System.out.println("Transforme esta lista de String em uma lista de numeros inteiros");
+        /*System.out.println("Transforme esta lista de String em uma lista de numeros inteiros");
         numerosAleatorios.stream()
                 .map(Integer::parseInt)
                 .collect(Collectors.toList())
@@ -58,7 +62,7 @@ public class ExerciciosStreamAPI {
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
         numerosAleatoriosInteger.removeIf( integer ->(integer % 2 != 0));
-        System.out.println(numerosAleatoriosInteger);
+        System.out.println(numerosAleatoriosInteger);*/
 
 
     }

@@ -8,7 +8,7 @@ public class MostraPares {
         int numero;
         System.out.println("Até qual número.. ");//recebe o número.
         numero = scan.nextInt();
-        int count = 0; // começa no zero.
+        int count = 1; // começa no um.
         while (count <= numero) {//enquanto a contagem for menor que o número.
             if (count % 2 == 0) {//se for par
                 System.out.print(" " + count);//exibe a saída.
